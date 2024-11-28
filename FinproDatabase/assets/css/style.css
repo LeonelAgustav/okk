@@ -1,0 +1,33 @@
+/* Kustomisasi tambahan untuk tampilan */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f3f4f6;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3490dc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2779bd;
+}
